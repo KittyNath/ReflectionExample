@@ -1,0 +1,6 @@
+name: ReflectionExample
+version: '${project.version}'
+description: example
+load: POSTWORLD
+author: KittyNath
+main: com.example.plugin.reflectionExample.ReflectionExample
