@@ -15,7 +15,7 @@ public class ReflectionExample extends JavaPlugin {
 
             Method getMinecraftServerInstanceMethod = fmlCommonHandlerClass.getDeclaredMethod("getMinecraftServerInstance");
             Method getPlayerListMethod = minecraftServerClass.getDeclaredMethod("getPlayerList");
-            Method getPlayersMethod = playerListClass.getMethod("func_181057_v");
+            Method getPlayersMethod = playerListClass.getDeclaredMethod("func_181057_v");
         } catch (Exception exception) {
             throw new RuntimeException(exception);
         }
